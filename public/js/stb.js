@@ -25,13 +25,13 @@ $(function(){
         let a1 = $("#one").val();
         let a2 = `${$("#two1").val()}/${$("#two3").val()}`;
         let a3 = $("#three").val();
-        // let a4 = $("#four").val();
+        let a4 = $("#five").val();
         //send backend:
         $.ajax({
             url: '/NkMNm4664XhcW8KuukHk',
             type: 'POST',
             contentType: 'application/json',
-            data: JSON.stringify({a1,a2,a3}),
+            data: JSON.stringify({a1,a2,a3,a4}),
             success: function(info) {
                 if(info.OK){
                     window.location = "/Q89HFszQPd3TFv4mx65k";
